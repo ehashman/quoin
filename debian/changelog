@@ -1,3 +1,9 @@
+quoin-clojure (0.1.2-2) unstable; urgency=medium
+
+  * Fix VCS URLs and maintainer.
+
+ -- Elana Hashman <debian@hashman.ca>  Mon, 24 Apr 2017 23:20:46 -0400
+
 quoin-clojure (0.1.2-1) unstable; urgency=medium
 
   * Initial release. (Closes: #710113)
