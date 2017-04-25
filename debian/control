@@ -1,0 +1,23 @@
+Source: quoin-clojure
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Elana Hashman <debian@hashman.ca>
+Build-Depends:
+ debhelper (>= 10),
+ javahelper (>= 0.32),
+ maven-repo-helper (>= 1.7),
+ default-jdk,
+ clojure (>= 1.5)
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/quoin-clojure.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/quoin-clojure.git;a=summary
+Homepage: https://github.com/davidsantiago/quoin
+
+Package: libquoin-clojure
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Clojure utilities for writing template engines
+ Provides map access and text manipulation functions for         
+ writing template engines in Clojure.
